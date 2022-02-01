@@ -54,7 +54,7 @@ if($_FILES){
 <form class="container-sm" method="post" action="" enctype="multipart/form-data">
     <div class="mb-3">
         <p class="form-label">Select image to upload:</p>
-        <input class="form-control"  type="file" name="uploadedName" accept="video/*, image/*, audio/*"/>
+        <input class="form-control" type="file" name="uploadedName" accept="video/*, image/*, audio/*"/>
         <input class="btn-primary" type="submit" value="Nahrát" name="submit"/>
     </div>
 </form>
