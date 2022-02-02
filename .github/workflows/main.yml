@@ -14,3 +14,4 @@ jobs:
         server: www.delta-www.cz
         username: a2019kopedaftp
         password: ${{ secrets.password }}
+        args: set ssl:verify-certificate false; set ftp:ssl-force true; set ftp:ssl-protect-data true
