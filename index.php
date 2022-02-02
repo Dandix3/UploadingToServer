@@ -8,7 +8,7 @@
     <title>Nahrávání souborů</title>
 </head>
 <?php
-
+var_dump($_FILES);
 if($_FILES){
     $targetDir="uploads/";
     $targetFile=$targetDir . basename($_FILES['uploadedName']['name']);
