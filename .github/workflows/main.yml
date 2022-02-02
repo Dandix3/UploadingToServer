@@ -13,4 +13,4 @@ jobs:
       with:
         server: www.delta-www.cz
         username: a2019kopedaftp
-        password: Goromoro1
+        password: ${{ secrets.password }}
